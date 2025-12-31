@@ -98,7 +98,6 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Consequuntur et saepe, quos veritatis reprehenderit eveniet nulla
               dolorem quae enim sed ratione magnam adipisci exercitationem nam,
-              
             </p>
           </div>
           <div>
@@ -115,6 +114,159 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Explore Your Options */}
+      <div className="text-center mt-20 px-6">
+        <h2 className="text-3xl font-semibold mb-12">
+          Explore Your Options <br />
+          Find Your Perfect Match
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          {/* Card 1 */}
+          <div className="rounded-xl overflow-hidden shadow-lg text-left">
+            <img
+              src="https://placehold.co/400x250"
+              alt="Dune Haven Residence"
+              className="w-full h-56 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="font-semibold text-lg mb-2">
+                Dune Haven Residence
+              </h3>
+              <div className="flex justify-between text-sm text-gray-600">
+                <span>6 Beds</span>
+                <span className="border-l border-gray-400 px-6">4 Bath</span>
+                <span className="border-l border-gray-400 px-6">1200 sqft</span>
+              </div>
+              <p className="mt-3 font-semibold">$550,000</p>
+            </div>
+          </div>
+
+          {/* Card 2 */}
+          <div className="rounded-xl overflow-hidden shadow-lg text-left">
+            <img
+              src="https://placehold.co/400x250"
+              alt="Dune Haven Residence"
+              className="w-full h-56 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="font-semibold text-lg mb-2">
+                Dune Haven Residence
+              </h3>
+              <div className="flex justify-between text-sm text-gray-600">
+                <span>6 Beds</span>
+                <span className="border-l border-gray-400 px-6">4 Bath</span>
+                <span className="border-l border-gray-400 px-6">3600 sqft</span>
+              </div>
+              <p className="mt-3 font-semibold">$550,000</p>
+            </div>
+          </div>
+
+          {/* Card 3 */}
+          <div className="rounded-xl overflow-hidden shadow-lg text-left">
+            <img
+              src="https://placehold.co/400x250"
+              alt="Dune Haven Residence"
+              className="w-full h-56 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="font-semibold text-lg mb-2">
+                Dune Haven Residence
+              </h3>
+              <div className="flex justify-between text-sm text-gray-600">
+                <span>6 Beds</span>
+                <span className="border-l border-gray-400 px-6">4 Bath</span>
+                <span className="border-l border-gray-400 px-6">2400 sqft</span>
+              </div>
+              <p className="mt-3 font-semibold">$550,000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="text-center mt-20 px-6">
+  <h2 className="text-3xl font-semibold mb-12">
+    Insights & Innovations <br />
+    Uncover the Latest
+  </h2>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+    {/* Card */}
+    <div className="text-left">
+      <img
+        src="https://placehold.co/300x220"
+        alt=""
+        className="rounded-xl w-full h-56 object-cover mb-4"
+      />
+      <h3 className="font-semibold text-lg leading-tight">
+        The Art of Kitchen <br /> Arrangement
+      </h3>
+      <p className="text-sm text-gray-600 mt-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor.
+      </p>
+      <button className="mt-4 text-sm font-semibold underline">
+        Read More
+      </button>
+    </div>
+
+    <div className="text-left">
+      <img
+        src="https://placehold.co/300x220"
+        alt=""
+        className="rounded-xl w-full h-56 object-cover mb-4"
+      />
+      <h3 className="font-semibold text-lg leading-tight">
+        Your Couch Can Now Make <br /> Coffee?
+      </h3>
+      <p className="text-sm text-gray-600 mt-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor.
+      </p>
+      <button className="mt-4 text-sm font-semibold underline">
+        Read More
+      </button>
+    </div>
+
+    <div className="text-left">
+      <img
+        src="https://placehold.co/300x220"
+        alt=""
+        className="rounded-xl w-full h-56 object-cover mb-4"
+      />
+      <h3 className="font-semibold text-lg leading-tight">
+        First-Time Guide: Everything <br /> You Need to Know
+      </h3>
+      <p className="text-sm text-gray-600 mt-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor.
+      </p>
+      <button className="mt-4 text-sm font-semibold underline">
+        Read More
+      </button>
+    </div>
+
+    <div className="text-left">
+      <img
+        src="https://placehold.co/300x220"
+        alt=""
+        className="rounded-xl w-full h-56 object-cover mb-4"
+      />
+      <h3 className="font-semibold text-lg leading-tight">
+        Guide to Seattle’s First-Time <br /> Buyer Hubs
+      </h3>
+      <p className="text-sm text-gray-600 mt-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor.
+      </p>
+      <button className="mt-4 text-sm font-semibold underline">
+        Read More
+      </button>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 }
